@@ -1,0 +1,73 @@
+.xpagination-container {
+    width: 98%;
+    margin: 20px auto;
+    font-family: sans-serif;
+    font-size: smaller;
+  }
+  
+  .xpagination-title {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  
+  .xpagination-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .xpagination-table th,
+  .xpagination-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .xpagination-table th,
+  .xpagination-table td {
+    border-left: none;
+    border-right: none;
+  }
+  
+  .xpagination-table th {
+    background-color: #0ca195;
+    color: white;
+  }
+  
+  .xpagination-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .xpagination-table tbody tr:last-child {
+    border-bottom: 4px solid #0ca195;
+  }
+  
+  .xpagination-controls {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .xpagination-controls button {
+    padding: 8px 16px;
+    margin: 0 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #0ca195;
+    color: white;
+  }
+  
+  .xpagination-controls span {
+    padding: 8px 16px;
+    margin: 0 8px;
+    border: 1px solid #0ca195; 
+    border-radius: 4px;
+    color: #0ca195; 
+  }
+  
+  .xpagination-controls button:disabled {
+    background-color: #eee;
+    cursor: not-allowed;
+    color: #ccc;
+  }
