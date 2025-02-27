@@ -61,7 +61,7 @@ const XPagination = () => {
         </tbody>
       </table>
       <div className="xpagination-controls">
-        <button onClick={handlePrevious} disabled={currentPage === 1}>Previous</button>
+        <button onClick={handlePrevious}>Previous</button>
         <span>{currentPage}</span>
         <button onClick={handleNext} disabled={currentPage === Math.ceil(data.length / itemsPerPage)}>Next</button>
       </div>
